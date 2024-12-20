@@ -1,0 +1,2 @@
+# It's always good to inspect your data before you use it to train a model just to know everything is fine. You know what they say: garbage in, garbage out.
+# Show 10 images from the training set with their labels.

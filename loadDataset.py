@@ -10,6 +10,7 @@ def load_data(batch_size, data_dir="data"):
 
     # define transfer to normalize the data
     transform = transforms.Compose([transforms.ToTensor(), transforms.Normalize((0.5,),(0.5,))])
+    # Take the range of pixel value and shift them : Normalize
 
     # Download and load the training data
     trainset = datasets.FashionMNIST(data_dir, download=True, transform=transform)
@@ -22,6 +23,4 @@ def load_data(batch_size, data_dir="data"):
     return trainloader, testloader
 
 trainlaoder, testloader = load_data(64)
-
-print(trainlaoder)
-print(testloader)
+# Batch Size = 64

@@ -1,8 +1,11 @@
+# 3rd
 # It's always good to inspect your data before you use it to train a model just to know everything is fine. You know what they say: garbage in, garbage out.
 # Show 10 images from the training set with their labels.
 import matplotlib.pyplot as plt
 import numpy as np
 
+from loadDataset import trainlaoder, testloader
+from labels import get_class_name
 
 # function to show an image
 def imshow(img):
@@ -11,7 +14,7 @@ def imshow(img):
     plt.imshow(np.transpose(npimg, (1, 2, 0)))  # transpose dimensions
 
 
-images, labels = next(iter(trainloader))  # get the first batch
+images, labels = next(iter(trainlaoder))  # get the first batch
 
 # show images with labels
 fig = plt.figure(figsize=(15, 4))

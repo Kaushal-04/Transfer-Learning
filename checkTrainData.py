@@ -4,7 +4,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-from loadDataset import trainlaoder, testloader
+from loadDataset import trainloader, testloader
 from labels import get_class_name
 
 # function to show an image
@@ -14,7 +14,7 @@ def imshow(img):
     plt.imshow(np.transpose(npimg, (1, 2, 0)))  # transpose dimensions
 
 
-images, labels = next(iter(trainlaoder))  # get the first batch
+images, labels = next(iter(trainloader))  # get the first batch
 
 # show images with labels
 fig = plt.figure(figsize=(15, 4))
@@ -24,3 +24,5 @@ for idx in np.arange(plot_size):
     ax = fig.add_subplot(2, plot_size // 2, idx + 1, xticks=[], yticks=[])
     imshow(images[idx])
     ax.set_title(get_class_name(int(labels[idx])))
+
+plt.show()

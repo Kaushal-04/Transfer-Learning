@@ -22,5 +22,5 @@ def load_data(batch_size, data_dir="data"):
 
     return trainloader, testloader
 
-trainlaoder, testloader = load_data(64)
+trainloader, testloader = load_data(64)
 # Batch Size = 64

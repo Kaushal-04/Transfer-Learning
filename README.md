@@ -8,7 +8,7 @@ We use MobileNetV3, a convolutional neural network architecture for mobile devic
 Fashion-MNIST is a drop-in replacement for MNIST (images of size 28x28 with 10 classes) but instead of hand-written digits it contains tiny images of clothes!
 
 Steps
-Load the Fashion-MNIST dataset using the torchvision package.
-Define a PyTorch model using the MobileNetV3 architecture.
-Train the model on the Fashion-MNIST dataset.
-Evaluate the model on the test set.
+1. Load the Fashion-MNIST dataset using the torchvision package.
+2. Define a PyTorch model using the MobileNetV3 architecture.
+3. Train the model on the Fashion-MNIST dataset.
+4. Evaluate the model on the test set.

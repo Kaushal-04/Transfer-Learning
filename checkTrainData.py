@@ -4,8 +4,8 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-from loadDataset import trainloader, testloader
-from labels import get_class_name
+from loadDataset import trainloader
+from helperFun import get_class_name
 
 # function to show an image
 def imshow(img):

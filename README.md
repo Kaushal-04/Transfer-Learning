@@ -13,4 +13,8 @@ Steps
 3. Train the model on the Fashion-MNIST dataset.
 4. Evaluate the model on the test set.
 
+Evaluate the model
 ![Results of Evaluate the Model](https://github.com/Kaushal-04/Transfer-Learning/blob/main/ScreenS/evaluateModel.png?raw=true)
+
+Predict the result
+![Predict the result](https://github.com/Kaushal-04/Transfer-Learning/blob/main/ScreenS/Result.png)

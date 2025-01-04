@@ -12,3 +12,5 @@ Steps
 2. Define a PyTorch model using the MobileNetV3 architecture.
 3. Train the model on the Fashion-MNIST dataset.
 4. Evaluate the model on the test set.
+
+![Results of Evaluate the Model](https://github.com/Kaushal-04/Transfer-Learning/blob/main/ScreenS/evaluateModel.png?raw=true)

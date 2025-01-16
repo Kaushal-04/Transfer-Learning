@@ -17,4 +17,5 @@ Evaluate the model
 ![Results of Evaluate the Model](https://github.com/Kaushal-04/Transfer-Learning/blob/main/ScreenS/evaluateModel.png?raw=true)
 
 Predict the result
+
 ![Predict the result](https://github.com/Kaushal-04/Transfer-Learning/blob/main/ScreenS/Result.png)
